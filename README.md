@@ -8,8 +8,8 @@
 2- Then, modify the file " webcam_capture.cpp" and change some parameters such us colours, area around the central pixel, and so on.
 
 ///
-~/catkin_ws/webcam_capture/src$ gedit webcam_capture.cpp 
 
+~/catkin_ws/webcam_capture/src$ gedit webcam_capture.cpp 
 
 ///
 
