@@ -13,3 +13,4 @@
 
 ///
 
+3- Then execute the camera to see the changes done.
