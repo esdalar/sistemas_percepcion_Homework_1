@@ -27,6 +27,7 @@ Fist of al we need to install the following packages:
  ///
  
 $ sudo apt-get install ros-melodic-camera-calibration
+
 $ sudo apt-get install ros-melodic-usb-cam
 
 ///
