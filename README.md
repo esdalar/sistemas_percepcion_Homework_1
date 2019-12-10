@@ -107,7 +107,6 @@ After modifying the cpp file, we create a package to be able to run it:
 ~/catkin_ws/src/webcam_point_features$ mkdir build
 
 ~/catkin_ws/src/webcam_point_features$ ls
-
 build  CMakeLists.txt  launch  README.md  src
 
 ~/catkin_ws/src/webcam_point_features$ cd build/
@@ -117,7 +116,6 @@ build  CMakeLists.txt  launch  README.md  src
 ~/catkin_ws/src/webcam_point_features/build$ make
 
 ~/catkin_ws/src/webcam_point_features/build$ ls
-
 CMakeCache.txt  CMakeFiles  cmake_install.cmake  Makefile  point_features
 
 
@@ -159,18 +157,17 @@ To start we will fork and clone the repository https://github.com/beta-robots/we
 
 ```
 
-gengiro@gengiro-GL552VW:~/catkin_ws/src$ git clone https://github.com/beta-robots/webcam_circles.git
+~/catkin_ws/src$ git clone https://github.com/beta-robots/webcam_circles.git
 
-gengiro@gengiro-GL552VW:~/catkin_ws/src$ cd webcam_circles/
+~/catkin_ws/src$ cd webcam_circles/
 
-gengiro@gengiro-GL552VW:~/catkin_ws/src/webcam_circles$ mkdir build
+~/catkin_ws/src/webcam_circles$ mkdir build
 
-gengiro@gengiro-GL552VW:~/catkin_ws/src/webcam_circles$ cd build
+~/catkin_ws/src/webcam_circles$ cd build
 
-gengiro@gengiro-GL552VW:~/catkin_ws/src/webcam_circles/build$ make
+~/catkin_ws/src/webcam_circles/build$ make
 
-gengiro@gengiro-GL552VW:~/catkin_ws/src/webcam_circles/build$ ls
-
+~/catkin_ws/src/webcam_circles/build$ ls
 circle_detector  CMakeCache.txt  CMakeFiles  cmake_install.cmake  Makefile
 
 
@@ -191,7 +188,7 @@ After playing with the parameters, we type to run:
 
 ```
 
-gengiro@gengiro-GL552VW:~/catkin_ws/src/webcam_circles/build$ ./circle_detector 
+~/catkin_ws/src/webcam_circles/build$ ./circle_detector 
 
 
 ```
