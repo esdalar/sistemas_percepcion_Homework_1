@@ -7,12 +7,12 @@
 
 2- Then, modify the file " webcam_capture.cpp" and change some parameters such us colours, area around the central pixel, and so on.
 
-///
+```
 
 ~/catkin_ws/webcam_capture/src$ gedit webcam_capture.cpp 
 
 
-///
+```
 
 3- Then execute the camera to see the changes done.
 
@@ -25,27 +25,27 @@
 
 Fist of al we need to install the following packages:
  
- ///
+```
  
 $ sudo apt-get install ros-melodic-camera-calibration
 
 $ sudo apt-get install ros-melodic-usb-cam
 
 
-///
+```
 
 Clone the repository https://github.com/beta-robots/webcam_point_features.
  
  Then, we will need to calibrate the camera. For that, we measure the square and modify in the file:
  
- ///
+```
  
  ~/catkin_ws/src/usb_cam_calibration/launch$ gedit usb_camera_calibration.launch
 
 
-///
+```
 
-///
+
  
  <launch>
 	<!-- User arguments -->
@@ -90,20 +90,19 @@ Clone the repository https://github.com/beta-robots/webcam_point_features.
 
 </launch>
 
-///
 
 We make some changes in the file "point_features.cpp ":
 
-///
+```
 
 ~/catkin_ws/src/webcam_point_features/src$ gedit point_features.cpp 
 
 
-///
+```
 
 After modifying the cpp file, we create a package to be able to run it:
 
-///
+```
 
 ~/catkin_ws/src/webcam_point_features$ mkdir build
 
@@ -122,16 +121,16 @@ build  CMakeLists.txt  launch  README.md  src
 CMakeCache.txt  CMakeFiles  cmake_install.cmake  Makefile  point_features
 
 
-///
+```
 
 To execute the program with the camera and see the modifications done, we just type:
 
-///
+```
 
 ~/catkin_ws/src/webcam_point_features/build$ ./point_features 
 
 
-///
+```
 
 
 3- Find out information about ORB features and describe them in your words:
@@ -158,7 +157,7 @@ To execute the program with the camera and see the modifications done, we just t
 
 To start we will fork and clone the repository https://github.com/beta-robots/webcam_circles.git and create a package:
 
-///
+```
 
 gengiro@gengiro-GL552VW:~/catkin_ws/src$ git clone https://github.com/beta-robots/webcam_circles.git
 
@@ -175,27 +174,27 @@ gengiro@gengiro-GL552VW:~/catkin_ws/src/webcam_circles/build$ ls
 circle_detector  CMakeCache.txt  CMakeFiles  cmake_install.cmake  Makefile
 
 
-///
+```
 
 If needed, we can calibrate the camera like the ast exercise.
 
 Then we change some parameters from the file "circle_detector.cpp":
 
-///
+```
 
 ~/catkin_ws/src/webcam_circles/src$ gedit circle_detector.cpp
 
 
-///
+```
 
 After playing with the parameters, we type to run:
 
-///
+```
 
 gengiro@gengiro-GL552VW:~/catkin_ws/src/webcam_circles/build$ ./circle_detector 
 
 
-///
+```
 
 4- Find out information about how The Hough Transform works, and interpret and explain  the behaviour when changing the parameters. Document your Readme.md and cite the used references
 
